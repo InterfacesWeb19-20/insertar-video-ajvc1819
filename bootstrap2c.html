@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <title>Bootstrap-2</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand ml-5" href="#"><img src="./Imagenes/Logo.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Servicios
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">SEO</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Desarrollo Web</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Marketing Online</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Contacto</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0 mr-5">
+            <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-primary my-2 my-sm-0" type="submit">Buscar</button>
+          </form>
+        </div>
+      </nav>
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+              <img src="./Imagenes/Carrousel.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./Imagenes/Carrousel2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./Imagenes/Carrousel3.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div>
+      <div class="jumbotron">
+        <h1 class="display-4">Hello, world!</h1>
+        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        <hr class="my-4">
+        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+      </div>
+      <h2 style="text-align: center;">Artículos</h2>
+      <div class="container">
+        <div class="card-deck m-auto">
+          <div class="row">
+          <div class="col-md-6 col-lg-4">
+          <div class="card mt-5" >
+          <img src="./Imagenes/Articulo1.png" alt="Art1" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Cardtitle</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>  
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card mt-5" >
+            <img src="./Imagenes/Articulo2.png" alt="Art1" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Cardtitle</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>  
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card mt-5">
+              <img src="./Imagenes/Articulo3.png" alt="Art1" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Cardtitle</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div> 
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+  <br>
+  <video id="medio" width="700" height="350" style="display: block; margin: auto; margin-bottom: 30px;" controls>
+    <source src="Aquarium.mp4">
+    <source src="Aquarium.ogg">
+    <source src="Aquarium.webm">
+ </video>
+  <footer class="page-footer bg-primary ">
+      <div class="container-fluid">
+        <div class="row p-5">
+          <div class="col-3 text-left">
+            <h6 class="text-white">Eniun.com</h6>
+          </div>
+          <div class="col-9 text-right" >
+            <p class="text-white">Política de privacidad de Cookies</p>
+          </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+</body>
+</html>
